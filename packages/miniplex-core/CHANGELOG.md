@@ -1,5 +1,12 @@
 # miniplex
 
+## 2.0.0-next.20
+
+### Patch Changes
+
+- b01cf43: You can now call `update()` on any derived bucket to make it reindex all of the entities containeed in the source bucket it's derived from.
+- 6f44ee7: `world.update` has been renamed to `world.evaluate`.
+
 ## 2.0.0-next.19
 
 ### Patch Changes
